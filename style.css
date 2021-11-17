@@ -1,0 +1,120 @@
+
+html{
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/31/772/43/stones-orchid-pink-flowers-wallpaper-preview.jpg");
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-width: 1048px;
+  min-height: 657px;
+}
+@media screen and (min-width: 480px) {
+  nav ul {
+    display: flex;
+  }
+}
+nav ul {
+ justify-content: center;
+ list-style: none;
+ padding: 0;
+ margin: 0;
+ background:rgba(153, 152, 153, 0.301);
+}
+nav li a {
+ color: black;
+ display: block;
+ text-decoration: none;
+ padding: .5em 1em;
+ font-size: 30px;  
+}
+nav li a:hover {
+ background: white;
+ color: black;  
+}
+.logo{
+ background-image: url("https://spaharmonie.files.wordpress.com/2014/05/gif-disec3b1o.gif");
+ padding-top: 8em;
+ text-align: center;
+ margin-left: 100px;
+ margin-right: 100px;
+ margin-top: 0;
+ margin-bottom: 0;
+ box-shadow: none;
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+}
+h1{
+  text-align: center;
+  font-size: 45px;
+  color:black;
+}
+.parrafo{
+ text-align: center;
+ margin: 3rem;
+ font-size: 25px;
+ background-color: transparent;
+}
+
+.ul_list{
+list-style-type: none;
+font-size: 25px;
+}
+.reserva{
+  text-align: center;
+  font-style: oblique;
+  font-size: 30px;
+}
+.formulario{
+  text-align: left;
+  font-size: 40px;
+  text-align: above;
+}
+.final{
+  text-align: center;
+  font-size: 45px;
+  font-style: oblique;
+}
+.main{
+  text-align: left;
+  font-style: oblique;
+  font-size: 45px;
+}
+.info{
+  text-align: left;
+  font-size: 34px;
+
+}
+.mapa{ 
+ image-orientation: from-image; 
+ float: right ;
+}
+.wpp a img {
+  text-align: left;
+  width: 60px;
+  height: 60px;
+
+  
+}
+
+body{
+  text-align: center;
+  list-style-type: none;
+  
+  height: 10rem;
+  margin : 5px;
+  padding: 6px;
+  justify-content: center;
+  flex-grow: 1;
+  flex-basis: 10rem;
+ 
+ }
+.content{
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+}
+

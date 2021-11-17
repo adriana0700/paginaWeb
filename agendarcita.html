@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SPA-AC</title>
+</head>
+<body>
+    
+    <header><strong>
+     <h1><strong>SPA-AC</strong></h1>
+        <nav>
+            <ul> 
+              <li><a href="inicio.html">Inicio</a></li>
+              <li><a href="agendarcita.html">Agenda tu cita</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>  
+    </header></strong>
+
+    <div class="reserva">
+      <h2><strong>AGENDA TU CITA</strong></h2>
+      <p>Para reservar cualquiera de nuestros servicios, <br>llena  el siguiente formulario.</P>
+   </div>
+
+   <div class="formulario">
+       <form action="">
+           <label for="nombre"></label>
+           <span>Nombre y apellido</span>
+           <input type="text" id="nombre">
+       </form>
+          <form action="">
+          <label for="telefono"></label>
+          <span>Telefono</span>
+          <input type="text" id="telefono">
+       </form>
+       <form>
+           <label for="Tratmiento de interes"></label>
+           <span>Tratamiento de interes</span>
+           <input list="servicios">
+           <datalist id="servicios">
+              <option value="Masajes reductores"></option>
+              <option value="Depilacion laser"></option>
+              <option value="Terapia de relajacion"></option>
+              <option value="Zonas humedas"></option>
+           </datalist>
+      </form>
+        <form action="">
+          <label for="fecha"></label>
+          <span>Fecha</span>
+          <input type="date" id="fecha">
+        </form>
+        <form action="">
+          <label for="hora"></label>
+          <span>Hora</span>
+          <input type="time" id="hora">
+          <br>
+          <input type="submit">
+        </form>
+   </div>
+ 
+    <footer class="final">
+        una vez recibida su solicitud, lo contactaremos para confirmar su cita.
+    </footer>
+
+</body>
